@@ -1,6 +1,6 @@
 cask "crispdisplay" do
-  version "1.1.0"
-  sha256 "4f49966111aa3c1e271c09061fc3f38ae0da1b9d893814e2c29f3284a54f5431"
+  version "1.1.1"
+  sha256 "b16d751380e27831d7ef77e6da664818eb8d6c738a5d99ac95065a60ac5def5f"
 
   url "https://github.com/ErikRedt/CrispDisplay/releases/download/v#{version}/CrispDisplay.dmg"
   name "CrispDisplay"
