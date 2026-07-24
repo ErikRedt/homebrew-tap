@@ -1,6 +1,6 @@
 cask "crispdisplay" do
-  version "1.1.1"
-  sha256 "b16d751380e27831d7ef77e6da664818eb8d6c738a5d99ac95065a60ac5def5f"
+  version "1.1.2"
+  sha256 "44825c8463f00bfe116357bfcd4e1f668285cd1cd712d39a5bd226b89d393ff0"
 
   url "https://github.com/ErikRedt/CrispDisplay/releases/download/v#{version}/CrispDisplay.dmg"
   name "CrispDisplay"
@@ -10,6 +10,7 @@ cask "crispdisplay" do
   app "CrispDisplay.app"
 
   zap trash: [
+    "~/Library/Application Support/CrispDisplay",
     "~/Library/Preferences/com.crispdisplay.app.plist",
   ]
 end
